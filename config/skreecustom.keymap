@@ -28,13 +28,13 @@
 
         layer_1 {
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans           &trans        &trans        &trans        &trans        &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans           &trans        &trans        &trans        &trans        &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans        &trans        &trans        &trans        &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans           &trans        &trans        &trans        &trans        &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                                                              &trans        &trans        &trans    &bootloader  &trans  &trans
-                                                              &trans        &trans        &trans    &trans       &trans  &trans
+&bt BT_CLR       &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4  &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans            &trans             &trans          &trans           &trans        &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans        &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_TOG  &rgb_ug RGB_EFF   &trans             &trans          &trans           &trans        &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans            &trans             &trans          &trans           &trans        &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                                                                      &trans           &trans        &trans    &bootloader  &trans  &trans
+                                                                      &trans           &trans        &trans    &trans       &trans  &trans
             >;
         };
 
@@ -51,6 +51,18 @@
         };
 
         layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
