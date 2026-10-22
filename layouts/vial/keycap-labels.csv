@@ -1,0 +1,83 @@
+﻿Hand,Section,Matrix row,Matrix col,Width,Primary label,NAV action,SYM action,Utilities action
+Left,Main,0,0,1U,Escape,,,Win
+Left,Main,0,1,1U,F1,,,
+Left,Main,0,2,1U,F2,,,
+Left,Main,0,3,1U,F3,,,
+Left,Main,0,4,1U,F4,,,
+Left,Main,0,5,1U,F5,,,
+Left,Main,0,6,1U,F6,,,
+Left,Main,1,0,1U,` / ~,,,
+Left,Main,1,1,1U,1,,,
+Left,Main,1,2,1U,2,,,
+Left,Main,1,3,1U,3,,,
+Left,Main,1,4,1U,4,,,
+Left,Main,1,5,1U,5,,,
+Left,Main,1,6,1U,=,,,
+Left,Main,2,0,1U,Tab,,,
+Left,Main,2,1,1U,Q,C_S(Kc_Tab),!,Lights on/off
+Left,Main,2,2,1U,W,Ctrl + Tab,@,Next effect
+Left,Main,2,3,1U,E,,#,Previous effect
+Left,Main,2,4,1U,R,Alt + ←,$,
+Left,Main,2,5,1U,T,Alt + Right,%,
+Left,Main,2,6,1U,[,,,
+Left,Main,3,0,1U,Shift,,,
+Left,Main,3,1,1U,A,Ctrl + A,[,Dimmer
+Left,Main,3,2,1U,S,Ctrl + S,],Brighter
+Left,Main,3,3,1U,D,Ctrl + F,{,Hue −
+Left,Main,3,4,1U,F,Ctrl + F,},Hue +
+Left,Main,3,5,1U,G,F3,`,
+Left,Main,3,6,1U,{,,,
+Left,Main,4,0,1U,Shift,,,
+Left,Main,4,1,1U,Z,Ctrl + Z,<,
+Left,Main,4,2,1U,X,Ctrl + X,>,Sgui(Kc_S)
+Left,Main,4,3,1U,C,Ctrl + C,\,
+Left,Main,4,4,1U,V,Ctrl + V,|,
+Left,Main,4,5,1U,B,Ctrl + Y,~,
+Left,Main,4,6,1U,Mute,,,
+Left,Thumb,5,0,1U,Ctrl,,,
+Left,Thumb,5,1,1U,Space,,,
+Left,Thumb,5,2,1U,Alt,,,
+Left,Thumb,5,3,1U,Shift,,,
+Left,Thumb,5,4,1U,Backspace,,,
+Left,Thumb,5,5,1U,Hold: arrows,,Hold: utilities,
+Right,Main,6,0,1U,Print Screen,,,
+Right,Main,6,1,1U,F7,,,
+Right,Main,6,2,1U,F8,,,
+Right,Main,6,3,1U,F9,,,
+Right,Main,6,4,1U,F10,,,
+Right,Main,6,5,1U,F11,,,
+Right,Main,6,6,1U,F12,,,
+Right,Main,7,0,1U,+,,,
+Right,Main,7,1,1U,6,,,
+Right,Main,7,2,1U,7,,,
+Right,Main,7,3,1U,8,,,
+Right,Main,7,4,1U,9,,,
+Right,Main,7,5,1U,0,,,
+Right,Main,7,6,1U,-,,,
+Right,Main,8,0,1U,],,,
+Right,Main,8,1,1U,Y,Insert,^,
+Right,Main,8,2,1U,U,Home,&,Mprv
+Right,Main,8,3,1U,I,↑,*,Play / pause
+Right,Main,8,4,1U,O,End,(,Mnxt
+Right,Main,8,5,1U,P,PgUp,),
+Right,Main,8,6,1U,\,,|,
+Right,Main,9,0,1U,},,,
+Right,Main,9,1,1U,H,Delete,-,
+Right,Main,9,2,1U,J,←,=,Vol −
+Right,Main,9,3,1U,K,↓,_,Mute
+Right,Main,9,4,1U,L,Right,+,Vol +
+Right,Main,9,5,1U,;,Pgdown,:,
+Right,Main,9,6,1U,',,"""",
+Right,Main,10,0,1U,~,,,
+Right,Main,10,1,1U,N,Mute,/,
+Right,Main,10,2,1U,M,Vol −,*,
+Right,Main,10,3,1U,",",Vol +,",",
+Right,Main,10,4,1U,.,Play / pause,.,
+Right,Main,10,5,1U,/,,?,
+Right,Main,10,6,1U,Shift,,,
+Right,Thumb,11,0,1U,Delete,Ctrl + Delete,,
+Right,Thumb,11,1,1U,Enter,,,
+Right,Thumb,11,2,1U,Backspace,Ctrl + Backspace,,
+Right,Thumb,11,3,1U,Shift,,,
+Right,Thumb,11,4,1U,Alt,,,
+Right,Thumb,11,5,1U,Hold: symbols,Hold: utilities,,
