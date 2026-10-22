@@ -114,10 +114,10 @@
     ],
     [
       [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
+        "KC_CAPSLOCK",
+        "RGB_TOG",
+        "RGB_VAD",
+        "RGB_VAI",
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS"
@@ -168,13 +168,13 @@
         -1
       ],
       [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
+        "SGUI(KC_S)",
+        "KC_MPRV",
+        "KC_MPLY",
+        "KC_MNXT",
+        "KC_VOLD",
+        "KC_MUTE",
+        "KC_VOLU"
       ],
       [
         "KC_TRNS",
@@ -218,7 +218,7 @@
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
-        "MO(3)",
+        "KC_TRNS",
         -1
       ]
     ],
@@ -274,7 +274,7 @@
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
-        "MO(3)",
+        "KC_TRNS",
         -1
       ],
       [
@@ -335,12 +335,12 @@
     [
       [
         "KC_TRNS",
-        "RGB_TOG",
-        "RGB_RMOD",
-        "RGB_MOD",
-        "RGB_VAD",
-        "RGB_VAI",
-        "RGB_HUD"
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS"
       ],
       [
         "KC_TRNS",
@@ -353,30 +353,30 @@
       ],
       [
         "KC_TRNS",
-        "KC_Q",
-        "KC_W",
-        "KC_E",
-        "KC_R",
-        "KC_T",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
         "KC_TRNS"
       ],
       [
         "KC_TRNS",
-        "KC_A",
-        "KC_S",
-        "KC_D",
-        "KC_F",
-        "KC_G",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
         "KC_TRNS"
       ],
       [
-        "KC_CAPSLOCK",
-        "KC_Z",
-        "KC_X",
-        "KC_C",
-        "KC_V",
-        "KC_B",
-        "RGB_HUI"
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS"
       ],
       [
         "KC_TRNS",
@@ -388,13 +388,13 @@
         -1
       ],
       [
-        "SGUI(KC_S)",
-        "KC_MPRV",
-        "KC_MPLY",
-        "KC_MNXT",
-        "KC_VOLD",
-        "KC_MUTE",
-        "KC_VOLU"
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS"
       ],
       [
         "KC_TRNS",
@@ -407,29 +407,29 @@
       ],
       [
         "KC_TRNS",
-        "KC_Y",
-        "KC_U",
-        "KC_I",
-        "KC_O",
-        "KC_P",
-        "KC_BSLASH"
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS"
       ],
       [
         "KC_TRNS",
-        "KC_H",
-        "KC_J",
-        "KC_K",
-        "KC_L",
-        "KC_SCOLON",
-        "KC_QUOTE"
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS"
       ],
       [
         "KC_TRNS",
-        "KC_N",
-        "KC_M",
         "KC_TRNS",
         "KC_TRNS",
-        "KC_SLASH",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
         "KC_TRNS"
       ],
       [

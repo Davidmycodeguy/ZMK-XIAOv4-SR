@@ -8,12 +8,31 @@ The October 22, 2026 research revision balances programming comfort, familiar QW
 
 - The left thumb cluster's top row is **Ctrl / Space / Alt**, from the outer edge toward the middle gap. All three are ordinary dedicated keys, as requested; simultaneous use is not required. Exactly two base Shifts remain: beside A and on the right thumb. Additional Ctrl keys are beside Z and on the right pinky. Win stays on a dedicated left thumb key.
 - WASD, modifiers, and Space are immediate ordinary keys. There are no mod-taps, layer-taps, sticky modifiers, tap dances, or active letter combos. Normal Ctrl+Z/X/C/V/S/F shortcuts work on the base layer; duplicate NAV macros have been removed.
-- [NAV](layouts/vial/layered-draft/nav.png): hold the left NAV thumb key. I/J/K/L are Up/Left/Down/Right; U/O are Home/End. While NAV is held, A/S/D/F become plain Win/Alt/Shift/Ctrl. For example, NAV+F+J is Ctrl+Left, and adding D selects the previous word. Thumb Backspace/Delete retain their normal functions; adding Ctrl deletes words. These layer modifiers have no tap/hold timing and do not change base letters.
+- [NAV](layouts/vial/layered-draft/nav.png): hold the left NAV thumb key. I/J/K/L are Up/Left/Down/Right; U/O are Home/End. NAV also provides media on F7–F12, lighting on F1–F3, Caps Lock on Esc, and region screenshot on PrtSc. There is no separate UTIL layer or two-thumb activation. While NAV is held, A/S/D/F become plain Win/Alt/Shift/Ctrl. For example, NAV+F+J is Ctrl+Left, and adding D selects the previous word. These extra modifier positions are optional to learn; ordinary base modifiers remain available. Thumb Backspace/Delete retain their normal functions; adding Ctrl deletes words. These layer modifiers have no tap/hold timing and do not change base letters.
 - [SYM](layouts/vial/layered-draft/sym.png): hold the right SYM thumb key. QWERT and YUIOP retain `! @ # $ %` and `^ & * ( )` in number-row order. Home-row pairs are A/S = `[]`, D/F = `()`, K/L = `{}`. J is `=`, G is `+`, H is `-`, and M is `_`. Comma/period keep their base positions. Backtick stays beside 1; the normal US Shift symbols remain available.
-- [Utilities](layouts/vial/layered-draft/util.png): hold both thumb keys in either order. F1–F6 control lighting; F7–F12 control media and volume. Mute becomes Hue+, PrtSc becomes Windows region screenshot (`Win+Shift+S`), and the pinky Ctrl becomes Caps Lock. Other keys retain base actions regardless of thumb press order.
-- Cap draft: large base legend, NAV at the lower left, SYM at the lower right. Utility labels sit on the function row, PrtSc, Mute, and pinky Ctrl. Image colors explain the layers; printed legends can all be white. The fifth firmware layer is unused.
+- Three usable layers total: **Normal, NAV, SYM**. The firmware still has five saved slots; the last two are blank and unreachable. Pressing both layer keys does not activate another mode. SYM takes priority where both layers have a mapping, and each key releases its own layer independently.
+- Clean cap draft: large white base legends, with at most one small white reminder. Navigation appears on U/I/O/P/J/K/L/semicolon, and useful symbol reminders on A/S/D/F/G/H/N/M. Media, lighting, and optional NAV modifiers stay in the guide. The CSV's `NAV action` and `SYM action` columns document all functions; `Secondary legend` and `Secondary layer` specify what is actually printed.
 
-**Status:** all 410 populated bindings passed offline Vial parsing. Checks also cover two base Shifts, unchanged alphanumerics, standard US punctuation, unused timing/combination features, usable modifiers, and both thumb press/release orders. This draft has not been written to or physically tested on the keyboard. General key reach and cap font/spacing still need checking before ordering printed caps.
+**Status:** all 410 populated bindings passed offline Vial parsing. Checks also cover three reachable layers, core editing/function keys, two base Shifts, unchanged alphanumerics, standard US punctuation, unused timing/combination features, printed navigation legends, and independent layer-key releases in both orders. This draft has not been written to or physically tested on the keyboard. General key reach and cap font/spacing still need checking before ordering printed caps.
+
+### Where the standard keys are
+
+| Function | Keys |
+| --- | --- |
+| Print Screen | Direct key: first key on the right half's top row, before F7 |
+| Region screenshot | NAV + PrtSc sends Win+Shift+S |
+| Arrows | NAV + I/J/K/L = Up/Left/Down/Right |
+| Home / End | NAV + U/O |
+| Page Up / Page Down | NAV + P/semicolon |
+| Insert / Delete | NAV + Y/H; Delete also has a direct right thumb key |
+| Caps Lock | NAV + Esc |
+| Escape / Tab / F1–F12 | Direct base keys |
+| Backspace / Enter | Direct thumb keys |
+| Previous / Play-pause / Next | NAV + F7/F8/F9 |
+| Volume down / Mute / Volume up | NAV + F10/F11/F12; Mute also has a direct base key |
+| Lights on-off / Dimmer / Brighter | NAV + F1/F2/F3 |
+
+Ordinary Ctrl, Shift, Alt and Win shortcuts still use their base keys. The current draft does not assign the less-used Scroll Lock, Pause/Break, application-menu key, or a dedicated numeric keypad. Those can be added if actually needed; they are not printed on the caps.
 
 To load, connect the halves as usual and plug the PC cable into the right half's upper USB port. Save a backup in Vial, confirm the matching keyboard, then choose **File → Load saved layout** and select `layered-draft/qwerty-layered-draft.vil`. Loading writes the configuration to the keyboard. Check typing, modifiers, navigation, symbols, and both layer keys on the hardware.
 
