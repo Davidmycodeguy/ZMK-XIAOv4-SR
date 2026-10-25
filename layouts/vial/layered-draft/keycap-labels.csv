@@ -1,8 +1,8 @@
 ﻿Hand,Section,Matrix row,Matrix col,Width,Primary label,NAV action,SYM action,Base legend,Shift legend,NAV legend,SYM legend,Cap color,Cap type,Artwork
 Left,Main,0,0,1U,Escape,Caps,,Esc,,Caps,,Black,Standard,r00-c0.svg
-Left,Main,0,1,1U,F1,Lights on/off,,F1,,RGB,,Black,Standard,r00-c1.svg
+Left,Main,0,1,1U,F1,Lights on/off,,F1,,Lights,,Black,Standard,r00-c1.svg
 Left,Main,0,2,1U,F2,Dimmer,,F2,,Dim,,Black,Standard,r00-c2.svg
-Left,Main,0,3,1U,F3,Brighter,,F3,,Brt,,Black,Standard,r00-c3.svg
+Left,Main,0,3,1U,F3,Brighter,,F3,,Bright,,Black,Standard,r00-c3.svg
 Left,Main,0,4,1U,F4,Scroll Lock,,F4,,ScrLk,,Black,Standard,r00-c4.svg
 Left,Main,0,5,1U,F5,Pause,,F5,,Pause,,Black,Standard,r00-c5.svg
 Left,Main,0,6,1U,F6,,,F6,,,,Black,Standard,r00-c6.svg
@@ -37,13 +37,13 @@ Left,Main,4,6,1U,Mute,,,Mute,,,,Black,Standard,r04-c6.svg
 Left,Thumb,5,0,1U,Ctrl,,,Ctrl,,,,Black,Standard,r05-c0.svg
 Left,Thumb,5,1,1U,Space,,,Space,,,,Black,Standard,r05-c1.svg
 Left,Thumb,5,2,1U,Alt,,,Alt,,,,Black,Standard,r05-c2.svg
-Left,Thumb,5,3,1U,Win,,,Win,,,,Black,Standard,r05-c3.svg
+Left,Thumb,5,3,1U,Star,,,Star,,,,Black,Standard,r05-c3.svg
 Left,Thumb,5,4,1U,Backspace,,,Bksp,,,,Black,Standard,r05-c4.svg
 Left,Thumb,5,5,1U,Hold: arrows,,,NAV,,,,White,Standard,r05-c5.svg
 Right,Main,6,0,1U,Print Screen,Screenshot region,,PrtSc,,Snip,,Black,Standard,r06-c0.svg
-Right,Main,6,1,1U,F7,Previous track,,F7,,Prev,,Black,Standard,r06-c1.svg
-Right,Main,6,2,1U,F8,Play / pause,,F8,,Play,,Black,Standard,r06-c2.svg
-Right,Main,6,3,1U,F9,Next track,,F9,,Next,,Black,Standard,r06-c3.svg
+Right,Main,6,1,1U,F7,Previous track,,F7,,⏮,,Black,Standard,r06-c1.svg
+Right,Main,6,2,1U,F8,Play / pause,,F8,,⏯,,Black,Standard,r06-c2.svg
+Right,Main,6,3,1U,F9,Next track,,F9,,⏭,,Black,Standard,r06-c3.svg
 Right,Main,6,4,1U,F10,Volume -,,F10,,Vol −,,Black,Standard,r06-c4.svg
 Right,Main,6,5,1U,F11,Mute,,F11,,Mute,,Black,Standard,r06-c5.svg
 Right,Main,6,6,1U,F12,Volume +,,F12,,Vol +,,Black,Standard,r06-c6.svg
@@ -78,6 +78,6 @@ Right,Main,10,6,1U,Shift,,,Shift,,,,Black,Standard,r10-c6.svg
 Right,Thumb,11,0,1U,Delete,,,Del,,,,Black,Standard,r11-c0.svg
 Right,Thumb,11,1,1U,Enter,,,Enter,,,,Black,Standard,r11-c1.svg
 Right,Thumb,11,2,1U,Backspace,,,Bksp,,,,Black,Standard,r11-c2.svg
-Right,Thumb,11,3,1U,Star,,,Star,,,,Black,Standard,r11-c3.svg
+Right,Thumb,11,3,1U,Win,,,Win,,,,Black,Standard,r11-c3.svg
 Right,Thumb,11,4,1U,Alt,,,Alt,,,,Black,Standard,r11-c4.svg
 Right,Thumb,11,5,1U,Hold: symbols,,,SYM,,,,White,Standard,r11-c5.svg

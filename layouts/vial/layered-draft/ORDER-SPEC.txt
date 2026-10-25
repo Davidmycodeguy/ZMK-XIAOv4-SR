@@ -8,10 +8,12 @@ Do not substitute opaque white XDA PBT for the white layer selectors.
 Reference layout: keycaps.png. Use CSV matrix coordinates, not proof-sheet order.
 Source of every label: keycap-labels.csv, generated alongside the saved Vial keymap.
 Main = Normal. Upper ordinary symbol = Shift. Lower-left = NAV. Lower-right = SYM.
+NAV text uses the enlarged revision; arrows and media controls use larger clear marks.
 Font: Source Code Pro Semibold (included under its OFL license).
 All custom legends are top-face engraving shapes, not separate colored inks.
 No repeated NAV/SYM prefixes on ordinary caps. No extra utility layer.
-The bolt and star are intentionally unassigned spare keys.
+The bolt (beside Z) and star (left outer thumb) are intentionally unassigned spare keys.
+Win is on the right outer thumb. Match the current CSV and picture.
 
 ARTWORK
 Each rNN-cN.svg contains path outlines on a transparent 14 mm working artboard.
@@ -19,7 +21,8 @@ Black paths describe the areas to engrave; black is not a request for black ink.
 The SVG includes no cap outline or homing bar. F/J must use the physical homing shape.
 The preview's drawn homing bar is illustrative; keep engraving clear of the real bar.
 The separate actual-size-proof.svg is a catalog, not an engraving file.
-Print that proof at 100% with fitting disabled; verify its 100 mm calibration line.
+The actual-size-proof.pdf is a ready-to-print Letter sheet of the same outlines.
+Print the PDF at 100% / Actual Size with fitting disabled; check its 100 mm line.
 Do not rescale each key independently: preserve shared sizes and relative positions.
 
 PRODUCTION CONFIRMATION STILL REQUIRED
