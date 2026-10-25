@@ -1,83 +1,83 @@
-﻿Hand,Section,Matrix row,Matrix col,Width,Primary label,NAV action,SYM action,Secondary legend,Secondary layer
-Left,Main,0,0,1U,Escape,Caps,,,
-Left,Main,0,1,1U,F1,Lights on/off,,,
-Left,Main,0,2,1U,F2,Dimmer,,,
-Left,Main,0,3,1U,F3,Brighter,,,
-Left,Main,0,4,1U,F4,,,,
-Left,Main,0,5,1U,F5,,,,
-Left,Main,0,6,1U,F6,,,,
-Left,Main,1,0,1U,` / ~,,,,
-Left,Main,1,1,1U,1,,,,
-Left,Main,1,2,1U,2,,,,
-Left,Main,1,3,1U,3,,,,
-Left,Main,1,4,1U,4,,,,
-Left,Main,1,5,1U,5,,,,
-Left,Main,1,6,1U,=,,,,
-Left,Main,2,0,1U,Tab,,,,
-Left,Main,2,1,1U,Q,,!,,
-Left,Main,2,2,1U,W,,@,,
-Left,Main,2,3,1U,E,,#,,
-Left,Main,2,4,1U,R,,$,,
-Left,Main,2,5,1U,T,,%,,
-Left,Main,2,6,1U,[,,,,
-Left,Main,3,0,1U,Shift,,,,
-Left,Main,3,1,1U,A,Win,[,[,SYM
-Left,Main,3,2,1U,S,Alt,],],SYM
-Left,Main,3,3,1U,D,Shift,(,(,SYM
-Left,Main,3,4,1U,F,Ctrl,),),SYM
-Left,Main,3,5,1U,G,,+,+,SYM
-Left,Main,3,6,1U,{,,,,
-Left,Main,4,0,1U,Ctrl,,,,
-Left,Main,4,1,1U,Z,,<,,
-Left,Main,4,2,1U,X,,>,,
-Left,Main,4,3,1U,C,,\,,
-Left,Main,4,4,1U,V,,|,,
-Left,Main,4,5,1U,B,,~,,
-Left,Main,4,6,1U,Mute,,,,
-Left,Thumb,5,0,1U,Ctrl,,,,
-Left,Thumb,5,1,1U,Space,,,,
-Left,Thumb,5,2,1U,Alt,,,,
-Left,Thumb,5,3,1U,Win,,,,
-Left,Thumb,5,4,1U,Backspace,,,,
-Left,Thumb,5,5,1U,Hold: arrows,,,,
-Right,Main,6,0,1U,Print Screen,Screenshot region,,,
-Right,Main,6,1,1U,F7,Previous track,,,
-Right,Main,6,2,1U,F8,Play / pause,,,
-Right,Main,6,3,1U,F9,Next track,,,
-Right,Main,6,4,1U,F10,Volume -,,,
-Right,Main,6,5,1U,F11,Mute,,,
-Right,Main,6,6,1U,F12,Volume +,,,
-Right,Main,7,0,1U,+,,,,
-Right,Main,7,1,1U,6,,,,
-Right,Main,7,2,1U,7,,,,
-Right,Main,7,3,1U,8,,,,
-Right,Main,7,4,1U,9,,,,
-Right,Main,7,5,1U,0,,,,
-Right,Main,7,6,1U,-,,,,
-Right,Main,8,0,1U,],,,,
-Right,Main,8,1,1U,Y,Insert,^,,
-Right,Main,8,2,1U,U,Home,&,Home,NAV
-Right,Main,8,3,1U,I,Up,*,↑,NAV
-Right,Main,8,4,1U,O,End,(,End,NAV
-Right,Main,8,5,1U,P,Page up,),PgUp,NAV
-Right,Main,8,6,1U,\,,|,,
-Right,Main,9,0,1U,},,,,
-Right,Main,9,1,1U,H,Delete,-,-,SYM
-Right,Main,9,2,1U,J,Left,=,←,NAV
-Right,Main,9,3,1U,K,Down,{,↓,NAV
-Right,Main,9,4,1U,L,Right,},→,NAV
-Right,Main,9,5,1U,;,Page down,:,PgDn,NAV
-Right,Main,9,6,1U,',,"""",,
-Right,Main,10,0,1U,~,,,,
-Right,Main,10,1,1U,N,,/,/,SYM
-Right,Main,10,2,1U,M,,_,_,SYM
-Right,Main,10,3,1U,",",,,,
-Right,Main,10,4,1U,.,,,,
-Right,Main,10,5,1U,/,,?,,
-Right,Main,10,6,1U,Ctrl,,,,
-Right,Thumb,11,0,1U,Delete,,,,
-Right,Thumb,11,1,1U,Enter,,,,
-Right,Thumb,11,2,1U,Backspace,,,,
-Right,Thumb,11,3,1U,Shift,,,,
-Right,Thumb,11,4,1U,Alt,,,,
-Right,Thumb,11,5,1U,Hold: symbols,,,,
+﻿Hand,Section,Matrix row,Matrix col,Width,Primary label,NAV action,SYM action,Base legend,Shift legend,NAV legend,SYM legend,Cap color,Cap type,Artwork
+Left,Main,0,0,1U,Escape,Caps,,Esc,,Caps,,Black,Standard,r00-c0.svg
+Left,Main,0,1,1U,F1,Lights on/off,,F1,,RGB,,Black,Standard,r00-c1.svg
+Left,Main,0,2,1U,F2,Dimmer,,F2,,Dim,,Black,Standard,r00-c2.svg
+Left,Main,0,3,1U,F3,Brighter,,F3,,Brt,,Black,Standard,r00-c3.svg
+Left,Main,0,4,1U,F4,Scroll Lock,,F4,,ScrLk,,Black,Standard,r00-c4.svg
+Left,Main,0,5,1U,F5,Pause,,F5,,Pause,,Black,Standard,r00-c5.svg
+Left,Main,0,6,1U,F6,,,F6,,,,Black,Standard,r00-c6.svg
+Left,Main,1,0,1U,`,,,`,~,,,Black,Standard,r01-c0.svg
+Left,Main,1,1,1U,1,,,1,!,,,Black,Standard,r01-c1.svg
+Left,Main,1,2,1U,2,,,2,@,,,Black,Standard,r01-c2.svg
+Left,Main,1,3,1U,3,,,3,#,,,Black,Standard,r01-c3.svg
+Left,Main,1,4,1U,4,,,4,$,,,Black,Standard,r01-c4.svg
+Left,Main,1,5,1U,5,,,5,%,,,Black,Standard,r01-c5.svg
+Left,Main,1,6,1U,=,,,=,+,,,Black,Standard,r01-c6.svg
+Left,Main,2,0,1U,Tab,,,Tab,,,,Black,Standard,r02-c0.svg
+Left,Main,2,1,1U,Q,,!,Q,,,!,Black,Standard,r02-c1.svg
+Left,Main,2,2,1U,W,,@,W,,,@,Black,Standard,r02-c2.svg
+Left,Main,2,3,1U,E,,#,E,,,#,Black,Standard,r02-c3.svg
+Left,Main,2,4,1U,R,,$,R,,,$,Black,Standard,r02-c4.svg
+Left,Main,2,5,1U,T,,%,T,,,%,Black,Standard,r02-c5.svg
+Left,Main,2,6,1U,[,,,[,{,,,Black,Standard,r02-c6.svg
+Left,Main,3,0,1U,Shift,,,Shift,,,,Black,Standard,r03-c0.svg
+Left,Main,3,1,1U,A,Win,[,A,,Win,[,Black,Standard,r03-c1.svg
+Left,Main,3,2,1U,S,Alt,],S,,Alt,],Black,Standard,r03-c2.svg
+Left,Main,3,3,1U,D,Shift,(,D,,Shift,(,Black,Standard,r03-c3.svg
+Left,Main,3,4,1U,F,Ctrl,),F,,Ctrl,),Black,Homing,r03-c4.svg
+Left,Main,3,5,1U,G,,+,G,,,+,Black,Standard,r03-c5.svg
+Left,Main,3,6,1U,{,,,{,,,,Black,Standard,r03-c6.svg
+Left,Main,4,0,1U,Bolt,,,Bolt,,,,Black,Standard,r04-c0.svg
+Left,Main,4,1,1U,Z,,<,Z,,,<,Black,Standard,r04-c1.svg
+Left,Main,4,2,1U,X,,>,X,,,>,Black,Standard,r04-c2.svg
+Left,Main,4,3,1U,C,,\,C,,,\,Black,Standard,r04-c3.svg
+Left,Main,4,4,1U,V,,|,V,,,|,Black,Standard,r04-c4.svg
+Left,Main,4,5,1U,B,,~,B,,,~,Black,Standard,r04-c5.svg
+Left,Main,4,6,1U,Mute,,,Mute,,,,Black,Standard,r04-c6.svg
+Left,Thumb,5,0,1U,Ctrl,,,Ctrl,,,,Black,Standard,r05-c0.svg
+Left,Thumb,5,1,1U,Space,,,Space,,,,Black,Standard,r05-c1.svg
+Left,Thumb,5,2,1U,Alt,,,Alt,,,,Black,Standard,r05-c2.svg
+Left,Thumb,5,3,1U,Win,,,Win,,,,Black,Standard,r05-c3.svg
+Left,Thumb,5,4,1U,Backspace,,,Bksp,,,,Black,Standard,r05-c4.svg
+Left,Thumb,5,5,1U,Hold: arrows,,,NAV,,,,White,Standard,r05-c5.svg
+Right,Main,6,0,1U,Print Screen,Screenshot region,,PrtSc,,Snip,,Black,Standard,r06-c0.svg
+Right,Main,6,1,1U,F7,Previous track,,F7,,Prev,,Black,Standard,r06-c1.svg
+Right,Main,6,2,1U,F8,Play / pause,,F8,,Play,,Black,Standard,r06-c2.svg
+Right,Main,6,3,1U,F9,Next track,,F9,,Next,,Black,Standard,r06-c3.svg
+Right,Main,6,4,1U,F10,Volume -,,F10,,Vol −,,Black,Standard,r06-c4.svg
+Right,Main,6,5,1U,F11,Mute,,F11,,Mute,,Black,Standard,r06-c5.svg
+Right,Main,6,6,1U,F12,Volume +,,F12,,Vol +,,Black,Standard,r06-c6.svg
+Right,Main,7,0,1U,+,,,+,,,,Black,Standard,r07-c0.svg
+Right,Main,7,1,1U,6,,,6,^,,,Black,Standard,r07-c1.svg
+Right,Main,7,2,1U,7,,,7,&,,,Black,Standard,r07-c2.svg
+Right,Main,7,3,1U,8,,,8,*,,,Black,Standard,r07-c3.svg
+Right,Main,7,4,1U,9,,,9,(,,,Black,Standard,r07-c4.svg
+Right,Main,7,5,1U,0,,,0,),,,Black,Standard,r07-c5.svg
+Right,Main,7,6,1U,-,,,-,_,,,Black,Standard,r07-c6.svg
+Right,Main,8,0,1U,],,,],},,,Black,Standard,r08-c0.svg
+Right,Main,8,1,1U,Y,Insert,^,Y,,Ins,^,Black,Standard,r08-c1.svg
+Right,Main,8,2,1U,U,Home,&,U,,Home,&,Black,Standard,r08-c2.svg
+Right,Main,8,3,1U,I,Up,*,I,,↑,*,Black,Standard,r08-c3.svg
+Right,Main,8,4,1U,O,End,(,O,,End,(,Black,Standard,r08-c4.svg
+Right,Main,8,5,1U,P,Page up,),P,,PgUp,),Black,Standard,r08-c5.svg
+Right,Main,8,6,1U,\,,|,\,|,,|,Black,Standard,r08-c6.svg
+Right,Main,9,0,1U,},,,},,,,Black,Standard,r09-c0.svg
+Right,Main,9,1,1U,H,Delete,-,H,,Del,-,Black,Standard,r09-c1.svg
+Right,Main,9,2,1U,J,Left,=,J,,←,=,Black,Homing,r09-c2.svg
+Right,Main,9,3,1U,K,Down,{,K,,↓,{,Black,Standard,r09-c3.svg
+Right,Main,9,4,1U,L,Right,},L,,→,},Black,Standard,r09-c4.svg
+Right,Main,9,5,1U,;,Page down,:,;,:,PgDn,:,Black,Standard,r09-c5.svg
+Right,Main,9,6,1U,',,"""",',"""",,"""",Black,Standard,r09-c6.svg
+Right,Main,10,0,1U,~,,,~,,,,Black,Standard,r10-c0.svg
+Right,Main,10,1,1U,N,,/,N,,,/,Black,Standard,r10-c1.svg
+Right,Main,10,2,1U,M,,_,M,,,_,Black,Standard,r10-c2.svg
+Right,Main,10,3,1U,",",Previous tab,,",",<,Tab ←,,Black,Standard,r10-c3.svg
+Right,Main,10,4,1U,.,Next tab,,.,>,Tab →,,Black,Standard,r10-c4.svg
+Right,Main,10,5,1U,/,,?,/,?,,?,Black,Standard,r10-c5.svg
+Right,Main,10,6,1U,Shift,,,Shift,,,,Black,Standard,r10-c6.svg
+Right,Thumb,11,0,1U,Delete,,,Del,,,,Black,Standard,r11-c0.svg
+Right,Thumb,11,1,1U,Enter,,,Enter,,,,Black,Standard,r11-c1.svg
+Right,Thumb,11,2,1U,Backspace,,,Bksp,,,,Black,Standard,r11-c2.svg
+Right,Thumb,11,3,1U,Star,,,Star,,,,Black,Standard,r11-c3.svg
+Right,Thumb,11,4,1U,Alt,,,Alt,,,,Black,Standard,r11-c4.svg
+Right,Thumb,11,5,1U,Hold: symbols,,,SYM,,,,White,Standard,r11-c5.svg

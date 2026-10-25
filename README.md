@@ -1,64 +1,68 @@
 # My Skree keyboard layouts
 
-## Current wired QMK/Vial layer draft
+## Current wired layout and custom keycap design
 
-[Download the layered draft](layouts/vial/layered-draft/qwerty-layered-draft.vil) · [Base layout](layouts/vial/layered-draft/base.png) · [Custom cap legends](layouts/vial/layered-draft/keycaps.png) · [All 82 labels](layouts/vial/layered-draft/keycap-labels.csv)
+[Keyboard picture](layouts/vial/layered-draft/keycaps.png) · [Close-up](layouts/vial/layered-draft/final-keycap-closeup.png) · [Quick guide](layouts/vial/layered-draft/quick-guide-phone.png) · [Vial layout](layouts/vial/layered-draft/qwerty-layered-draft.vil) · [82-key specification](layouts/vial/layered-draft/keycap-labels.csv)
 
-The October 22, 2026 research revision balances programming comfort, familiar QWERTY positions, and immediate gaming inputs. It targets the wired Skree 5×7+6 with 82 physical keys, a 12×7 matrix, Vial UID `8490061865922939121`, and USB `9953:0002`.
+Reviewed October 24, 2026 for the wired Skree Redgod 5×7+6: **82 keys, exactly three usable layers: Normal, NAV and SYM.** Vial UID `8490061865922939121`, USB `9953:0002`, 12×7 matrix. The firmware has five slots; slots 3 and 4 are transparent and unreachable.
 
-- The left thumb cluster's top row is **Ctrl / Space / Alt**, from the outer edge toward the middle gap. All three are ordinary dedicated keys, as requested; simultaneous use is not required. Exactly two base Shifts remain: beside A and on the right thumb. Additional Ctrl keys are beside Z and on the right pinky. Win stays on a dedicated left thumb key.
-- WASD, modifiers, and Space are immediate ordinary keys. There are no mod-taps, layer-taps, sticky modifiers, tap dances, or active letter combos. Normal Ctrl+Z/X/C/V/S/F shortcuts work on the base layer; duplicate NAV macros have been removed.
-- [NAV](layouts/vial/layered-draft/nav.png): hold the left NAV thumb key. I/J/K/L are Up/Left/Down/Right; U/O are Home/End. NAV also provides media on F7–F12, lighting on F1–F3, Caps Lock on Esc, and region screenshot on PrtSc. There is no separate UTIL layer or two-thumb activation. While NAV is held, A/S/D/F become plain Win/Alt/Shift/Ctrl. For example, NAV+F+J is Ctrl+Left, and adding D selects the previous word. These extra modifier positions are optional to learn; ordinary base modifiers remain available. Thumb Backspace/Delete retain their normal functions; adding Ctrl deletes words. These layer modifiers have no tap/hold timing and do not change base letters.
-- [SYM](layouts/vial/layered-draft/sym.png): hold the right SYM thumb key. QWERT and YUIOP retain `! @ # $ %` and `^ & * ( )` in number-row order. Home-row pairs are A/S = `[]`, D/F = `()`, K/L = `{}`. J is `=`, G is `+`, H is `-`, and M is `_`. Comma/period keep their base positions. Backtick stays beside 1; the normal US Shift symbols remain available.
-- Three usable layers total: **Normal, NAV, SYM**. The firmware still has five saved slots; the last two are blank and unreachable. Pressing both layer keys does not activate another mode. SYM takes priority where both layers have a mapping, and each key releases its own layer independently.
-- Clean cap draft: large white base legends, with at most one small white reminder. Navigation appears on U/I/O/P/J/K/L/semicolon, and useful symbol reminders on A/S/D/F/G/H/N/M. Media, lighting, and optional NAV modifiers stay in the guide. The CSV's `NAV action` and `SYM action` columns document all functions; `Secondary legend` and `Secondary layer` specify what is actually printed.
+- Familiar QWERTY letters and number positions, backtick beside 1, and ordinary US Shift symbols. Y is on the right hand.
+- Left thumb top row is **Ctrl / Space / Alt**, from the outer edge toward the middle gap. These are immediate dedicated keys, as requested. Exactly two base Shifts: beside A and right of slash. Caps Lock is on NAV+Esc.
+- No mod-taps, layer-taps, tap dances, sticky modifiers or active combos. Normal Ctrl+Z/X/C/V/S/F shortcuts remain ordinary chords. The lightning and star keys are unassigned (`KC_NO`) so their eventual macros do not need new caps.
+- Hold the left NAV thumb for navigation and controls; hold the right SYM thumb for programming symbols. Release a layer key to exit that layer. Holding both does not create a utility layer: SYM wins where mapped, then NAV, then Normal. Each releases independently.
 
-**Status:** all 410 populated bindings passed offline Vial parsing. Checks also cover three reachable layers, core editing/function keys, two base Shifts, unchanged alphanumerics, standard US punctuation, unused timing/combination features, printed navigation legends, and independent layer-key releases in both orders. This draft has not been written to or physically tested on the keyboard. General key reach and cap font/spacing still need checking before ordering printed caps.
-
-### Where the standard keys are
+### Where the controls are
 
 | Function | Keys |
 | --- | --- |
-| Print Screen | Direct key: first key on the right half's top row, before F7 |
+| Escape, Tab, F1–F12 | Direct Normal keys |
+| Backspace, Enter, Delete | Direct thumb keys; Backspace is on both hands |
+| Print Screen | Direct key before F7 |
 | Region screenshot | NAV + PrtSc sends Win+Shift+S |
 | Arrows | NAV + I/J/K/L = Up/Left/Down/Right |
 | Home / End | NAV + U/O |
 | Page Up / Page Down | NAV + P/semicolon |
-| Insert / Delete | NAV + Y/H; Delete also has a direct right thumb key |
+| Insert / Delete | NAV + Y/H |
 | Caps Lock | NAV + Esc |
-| Escape / Tab / F1–F12 | Direct base keys |
-| Backspace / Enter | Direct thumb keys |
-| Previous / Play-pause / Next | NAV + F7/F8/F9 |
-| Volume down / Mute / Volume up | NAV + F10/F11/F12; Mute also has a direct base key |
-| Lights on-off / Dimmer / Brighter | NAV + F1/F2/F3 |
+| Scroll Lock / Pause | NAV + F4/F5 |
+| Previous / next tab | NAV + comma/period sends Ctrl+PgUp/PgDn |
+| Previous track / play-pause / next track | NAV + F7/F8/F9 |
+| Volume down / mute / volume up | NAV + F10/F11/F12; direct Mute also available |
+| RGB on-off / dimmer / brighter | NAV + F1/F2/F3 |
 
-Ordinary Ctrl, Shift, Alt and Win shortcuts still use their base keys. The current draft does not assign the less-used Scroll Lock, Pause/Break, application-menu key, or a dedicated numeric keypad. Those can be added if actually needed; they are not printed on the caps.
+The tab pair follows the application’s Ctrl+PgUp/PgDn behavior; it works as adjacent-tab navigation in Chrome and adjacent-editor navigation in VS Code. While NAV is held, A/S/D/F are optional plain Win/Alt/Shift/Ctrl modifiers. For example, NAV+F+J/L moves by words; add D to select. There is no timing-dependent home-row behavior on Normal. A separate numpad, Num Lock, application-menu key and application-specific macros were not added; this design keeps its existing scope.
 
-To load, connect the halves as usual and plug the PC cable into the right half's upper USB port. Save a backup in Vial, confirm the matching keyboard, then choose **File → Load saved layout** and select `layered-draft/qwerty-layered-draft.vil`. Loading writes the configuration to the keyboard. Check typing, modifiers, navigation, symbols, and both layer keys on the hardware.
+### Symbols
 
-![Draft custom cap legends, viewed from the typing position](layouts/vial/layered-draft/keycaps.png)
+[SYM map](layouts/vial/layered-draft/sym.png): Q–P follow the number-row order `! @ # $ % ^ & * ( )`. Adjacent home-row pairs are A/S = `[]`, D/F = `()`, K/L = `{}`. J is `=`, G is `+`, H is `-`, N is `/`, M is `_`, V is `|`, B is `~`. Comma/period keep their Normal behavior on SYM. All standard US punctuation remains reachable. The right-thumb hold makes the left-hand bracket pairs convenient; familiar top-row parentheses remain as an alternative.
 
-### Research and design tradeoffs
+### Keycap design
 
-This is a custom adaptation of documented ideas, not an official Miryoku or Seniply layout. With 82 keys, the number row, F row, and dedicated modifiers can stay available; extra number/function layers would add little for this user's priorities.
+![82-key design](layouts/vial/layered-draft/keycaps.png)
 
-| Approach considered | Benefit | Decision for this draft |
-| --- | --- | --- |
-| Dedicated modifiers and momentary thumb layers | Familiar press/hold behavior | Base layout uses these |
-| Home-row letter/modifier tap-holds | Less reach and fewer dedicated keys | Excluded for gaming and predictable letter behavior |
-| Plain home-row modifiers on NAV | Convenient Ctrl/Shift/Alt navigation without timing decisions | Use only while NAV is held |
-| One-shot/sticky modifiers | Can enter a chord one key at a time | Excluded to avoid queued modifier state |
-| Letter combos and tap dances | More actions with fewer physical keys | Excluded; enough dedicated keys are available |
+- FK shine-through XDA: **78 black standard 1U + 2 black homing 1U (F/J) + 2 white standard 1U (NAV/SYM) = 82 caps**.
+- Source Code Pro Semibold: large normal legend; usual Shift symbol above it; NAV at bottom-left and SYM at bottom-right. Positions identify layers without repeating their names on every key.
+- All explicitly assigned layer functions are printed, including Insert, Scroll Lock, Pause, media, RGB and tab shortcuts. Transparent/inherited actions do not add labels. White NAV/SYM caps identify the layer selectors.
+- F/J use physical bottom-center homing bars, not engraved fake bars. The artwork reserves that area. Bolt/star icons identify the two spare keys without implying a current action.
+- [Individual outlined SVGs](layouts/vial/layered-draft/keycap-artwork/) contain only engraving shapes, with no font installation or decorative cap border required. [Actual-size SVG proof](layouts/vial/layered-draft/keycap-artwork/actual-size-proof.svg) uses 14 mm working artboards and a 100 mm scale line. Matrix row/column names match the CSV; the proof sheet is a catalog, not the physical keyboard arrangement.
+- [Order specification](layouts/vial/layered-draft/ORDER-SPEC.txt) records cap types, artwork conventions and the remaining production checks. Included [font/license](layouts/vial/layered-draft/fonts/) preserves editable typography.
 
-[Precondition's guide](https://precondition.github.io/home-row-mods) documents both home-row mod-taps and the alternative of thumb-selected layers containing plain modifiers. [QMK's tap-hold documentation](https://docs.qmk.fm/tap_hold) explains the ambiguity between typed rolls and held modifiers, plus modern Chordal Hold and Flow Tap mitigations. They can help an experiment, but this draft avoids that ambiguity entirely. The saved firmware source has not been shown to support those newer mitigations, and they are not required here. [QMK one-shot keys](https://docs.qmk.fm/one_shot_keys) explains the queued modifier alternative. [Callum's current keymap](https://github.com/callum-oakley/keymap) offers half-layers as another way to avoid mod-tap timing; its extra layer choreography is unnecessary for this baseline.
+FK’s live XDA Layout editor was checked on October 24: it exposes a `1u homing` shape and per-selected-key black/white switching. [Editor evidence](layouts/vial/layered-draft/fk-options-verified.png). No front/side printing or separate colored legends are assumed. White-cap legend contrast, exact printable area and final laser alignment must be checked in FK’s production proof; preview colors and homing-bar placement are illustrations.
 
-[Miryoku's reference](https://github.com/manna-harbour/miryoku/blob/master/docs/reference/readme.org) emphasizes nearby keys, thumb layers, and accessible modifiers. [Seniply](https://stevep99.github.io/seniply/) groups related symbols and provides modifiers alongside navigation. This revision borrows those principles while preserving QWERTY and ordinary gaming keys.
+### Validation and loading
 
-[Getreuer's symbol-layer guide](https://getreuer.info/posts/keyboards/symbol-layer/index.html) weighs symbol frequency, common code sequences, repeated symbols, and learnability. Here, parentheses move from ring/pinky top-row positions to left middle/index home positions, opposite the right-thumb SYM hold. All three bracket pairs are adjacent on the home row. Keeping the top-row mnemonic intentionally duplicates parentheses; it provides a familiar fallback. Square brackets still use the left pinky/ring, which is the main compromise. Operators `=`, `+`, `-`, `_`, `/`, `*`, `&`, and `|` have index, middle, or ring-finger options. Patterns considered include `()`, `[]`, `{}`, `!=`, `<=`, `>=`, `+=`, `=>`, `->`, `/*`, and `*/`; no claim of globally optimal speed or physical comfort is made.
+**Offline checks passed:** all 410 populated Vial bindings parse; 82 physical positions match the saved matrix; exactly two Shifts; unchanged QWERTY letters/numbers; 21 ordinary US Shift pairs; core controls and all punctuation; no timing features; independent NAV/SYM release orders; 82 unique artwork files; matching legend data; text bounds and no overlapping labels. The final keymap differs from the prior committed draft at exactly seven bindings: three Normal positions and four NAV shortcuts.
 
-Start with ordinary typing and Ctrl shortcuts, then learn NAV arrows, then the three bracket pairs. The rest of SYM can be learned as needed. Final symbol priorities can be adjusted for the user's programming languages after actual use.
+This revision has **not** been written to or physically tested on the keyboard. Before ordering printed caps, load and use the layout long enough to verify reach, thumb comfort and lighting. Connect the halves as usual and plug the PC cable into the right half’s upper USB port. In Vial, save a backup, confirm the matching device, then **File → Load saved layout** and choose `qwerty-layered-draft.vil`. Loading writes to the keyboard. Verify ordinary typing, Ctrl/Shift/Alt, NAV, SYM, and releasing both layer keys in either order.
 
-## Previous wired preview
+### Design references
+
+[QMK layer behavior](https://docs.qmk.fm/feature_layers), [QMK tap-hold behavior](https://docs.qmk.fm/tap_hold), [home-row modifier alternatives](https://precondition.github.io/home-row-mods), [Getreuer’s symbol-layer guide](https://getreuer.info/posts/keyboards/symbol-layer/index.html), [Chrome shortcuts](https://support.google.com/chrome/answer/157179?hl=en), [VS Code editor navigation](https://code.visualstudio.com/docs/editing/getting-started/userinterface), [FK custom editor](https://custom.fkcaps.com/custom/create/keycaps), [Source Code Pro](https://github.com/adobe-fonts/source-code-pro).
+
+The design uses dedicated modifiers and simple momentary layers to suit gaming and learnability. It keeps symbols grouped and paired without claiming a universal optimum for every programming language or hand size.
+
+## Previous wired preview (archived; use the current design above)
+
 
 [Download the reviewed layout](layouts/vial/qwerty-shift-a.vil) · [Full-size picture](layouts/vial/layout.png) · [Key labels and layer actions](layouts/vial/keycap-labels.csv)
 

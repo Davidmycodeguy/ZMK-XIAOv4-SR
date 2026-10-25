@@ -40,7 +40,7 @@
         "LSFT(KC_LBRACKET)"
       ],
       [
-        "KC_LCTRL",
+        "KC_NO",
         "KC_Z",
         "KC_X",
         "KC_C",
@@ -100,13 +100,13 @@
         "KC_COMMA",
         "KC_DOT",
         "KC_SLASH",
-        "KC_RCTRL"
+        "KC_RSHIFT"
       ],
       [
         "KC_DELETE",
         "KC_ENTER",
         "KC_BSPACE",
-        "KC_RSHIFT",
+        "KC_NO",
         "KC_RALT",
         "MO(2)",
         -1
@@ -118,8 +118,8 @@
         "RGB_TOG",
         "RGB_VAD",
         "RGB_VAI",
-        "KC_TRNS",
-        "KC_TRNS",
+        "KC_SCROLLLOCK",
+        "KC_PAUSE",
         "KC_TRNS"
       ],
       [
@@ -207,8 +207,8 @@
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
+        "LCTL(KC_PGUP)",
+        "LCTL(KC_PGDOWN)",
         "KC_TRNS",
         "KC_TRNS"
       ],

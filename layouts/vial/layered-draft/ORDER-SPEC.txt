@@ -1,0 +1,34 @@
+FK XDA ORDER SPECIFICATION — reviewed design, October 24, 2026
+
+Quantity: 82 fitted caps. All are MX-compatible, uniform XDA, 1U square.
+78 black standard + 2 black homing (F/J) + 2 white standard (NAV/SYM).
+Use the same shine-through XDA material/profile for black and white caps.
+Do not substitute opaque white XDA PBT for the white layer selectors.
+
+Reference layout: keycaps.png. Use CSV matrix coordinates, not proof-sheet order.
+Source of every label: keycap-labels.csv, generated alongside the saved Vial keymap.
+Main = Normal. Upper ordinary symbol = Shift. Lower-left = NAV. Lower-right = SYM.
+Font: Source Code Pro Semibold (included under its OFL license).
+All custom legends are top-face engraving shapes, not separate colored inks.
+No repeated NAV/SYM prefixes on ordinary caps. No extra utility layer.
+The bolt and star are intentionally unassigned spare keys.
+
+ARTWORK
+Each rNN-cN.svg contains path outlines on a transparent 14 mm working artboard.
+Black paths describe the areas to engrave; black is not a request for black ink.
+The SVG includes no cap outline or homing bar. F/J must use the physical homing shape.
+The preview's drawn homing bar is illustrative; keep engraving clear of the real bar.
+The separate actual-size-proof.svg is a catalog, not an engraving file.
+Print that proof at 100% with fitting disabled; verify its 100 mm calibration line.
+Do not rescale each key independently: preserve shared sizes and relative positions.
+
+PRODUCTION CONFIRMATION STILL REQUIRED
+Confirm actual printable boundary, minimum stroke and sublegend size before cutting.
+Confirm white-cap legend contrast with illumination off and on.
+Confirm small lower-corner legends and main legends remain readable around switch shadows.
+Confirm F/J physical bars clear their Ctrl/) and Left/= sublegends.
+Check cap-to-case clearance on the curved board; no physical fit trial has occurred here.
+Request a complete proof showing all 82 caps, especially both Shift caps and both Backspaces.
+
+Live FK editor verified: 1u homing and per-key black/white switching are available.
+The artwork package is complete; no order has been placed and no supplier message sent.
